@@ -27,7 +27,7 @@ Check out the live version of the project here:
 
 ---
 
-## Getting Started
+## 💻 Getting Started
 
 To run this project locally, follow these steps:
 
@@ -43,6 +43,8 @@ npm install
 
 # Start the development server
 npm run dev
+
+```
 
 ---
 
