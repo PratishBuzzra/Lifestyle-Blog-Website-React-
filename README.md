@@ -1,12 +1,28 @@
-# React + Vite
+# Lifestyle Blog Website (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a responsive React-based website that replicates the design of a lifestyle blog originally featured on **WebWave Templates**.  
+The goal of this project was to practice translating a visually rich UI into a fully functional React application.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Purpose
+- Strengthen my React and frontend development skills  
+- Practice building a site from a static design reference  
+- Apply responsive design and layout techniques  
+- Explore component-based architecture and clean code organization  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Tech Stack
+- **React**  
+- **CSS**  
+- **React Router**   
+- **Responsive design techniques**  
+
+---
+
+##  Notes
+- This project is **not affiliated** with WebWave and is intended for **educational and practice purposes only**.  
+- The original template can be found here: [WebWave Lifestyle Blog Template](https://templates.webwave.me/zf2xqj?_gl=1*1b1fkc9*_gcl_au*MTQwOTg3MDcyNi4xNzUxMzc2NDg0)  
+- All visual credit goes to the original designers of the template.  
+- Content and layout are recreated from scratch using React.  

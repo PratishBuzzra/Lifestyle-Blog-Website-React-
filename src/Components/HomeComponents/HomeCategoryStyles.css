@@ -1,0 +1,125 @@
+.home-category{
+    padding: 40px;
+}
+.home-category h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+.cat-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+   
+  
+}
+.cat-card{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   flex: 1 1 250px;
+
+    
+    
+}
+
+.cat-img-container{
+    position: relative;
+    width: 100%;
+  
+}
+
+.cat-card img{
+    width: 100%;
+    height: 45vh;
+    display: block;
+    object-fit: cover;
+    border-radius: 8px;
+    
+   
+}
+
+.cat-title {
+    position: absolute;
+    bottom: -9%;
+    left: 10%;
+    width: 80%;
+    background: #5f7f63;
+    color: white;
+    padding: 15px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  
+    
+}
+.cat-title:hover {
+    background: #4a6650;
+  
+    
+}
+.cato-link{
+    text-decoration: none;
+    color: #fff;
+    
+    
+}
+.cat-title h3{
+    font-weight: 500;
+     font-size: 1.5rem;
+       text-align: center;  
+       line-height: 1.2;
+       
+       
+}
+
+
+.cat-text{
+    text-align: center;
+
+    margin-top: 40px;
+    font-size: 15px;
+    line-height: 1.6;
+    padding: 0 10px;
+}
+@media (max-width: 768px) {
+  .cat-card {
+    flex: 1 1 45%;
+    max-width: 90%;
+  }
+
+  .cat-card img {
+    height: 35vh;
+  }
+
+  .cat-title h3 {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cat-card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .cat-card img {
+    height: 30vh;
+  }
+
+  .cat-title {
+    padding: 10px 6px;
+   
+  }
+
+  .cat-title h3 {
+    font-size: 1rem;
+  }
+
+  .cat-text {
+    font-size: 14px;
+  }
+}

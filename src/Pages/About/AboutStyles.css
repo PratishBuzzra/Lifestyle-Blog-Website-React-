@@ -1,0 +1,56 @@
+.about-touch{
+    position: relative;
+    width: 100%;
+    height: 55vh;
+    overflow: hidden;
+    margin-bottom: 3rem;
+}
+.about-touch-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.touch-description{
+    position: absolute;
+
+    inset: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    
+}
+.about-touch-title{
+    font-size: 3.8rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+.touch-icons{
+     display: flex;
+    align-items: center;
+    gap: 20px;
+
+    font-size: 3.8rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 850px) {
+  .about-touch-title {
+    font-size: 3rem;
+  }
+
+  .touch-icons {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 450px) {
+  .about-touch-title {
+    font-size: 2rem;
+  }
+
+  .touch-icons {
+    font-size: 2rem;
+  }
+}

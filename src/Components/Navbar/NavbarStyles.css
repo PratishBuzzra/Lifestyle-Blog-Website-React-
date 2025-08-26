@@ -1,0 +1,79 @@
+.navbar-items{
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 7px 8px;
+     box-shadow: 0 5px 15px 0 rgba(0,0,0,.25);
+}
+.navbar-logo{
+    color: #222;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+.navmenu{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    align-items: center;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #222;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.6rem 0.8rem;
+    height: 8vh;
+}
+.cato-btn{
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+.menu-icon{
+    display: none;
+}
+@media screen and (max-width: 850px) {
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+    .hamicon{
+        font-size: 3rem;
+        padding-top: 9px;
+
+    }
+    .navmenu{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background: #fff;
+         box-shadow: 0 5px 15px 0 rgba(0,0,0,.25);
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 66px;
+        left: -100%;
+        opacity: 0;
+        align-items: stretch;
+       
+        
+        padding: 10px 20px 20px;
+        transition: 0.4s ease-in-out;
+        
+    
+    }
+    .navmenu.active{
+        left: 0;
+        opacity: 1;
+       
+        transition: 0.4s ease-in-out;
+        
+       
+
+    }
+}

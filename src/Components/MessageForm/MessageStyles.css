@@ -1,0 +1,53 @@
+.msg-title{
+     text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+.msg-form-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-bottom: 4rem;
+}
+.msg-form-container form{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.msg-form-container form label{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.msg-form-container form input{
+    padding: 0 0.5rem;
+    height: 3.5rem;
+    margin-bottom: 15px;
+    border: 1px solid #2a2a2a;
+}
+.msg-form-container form textarea{
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    border: 1px solid #2a2a2a;
+    
+}
+.msg-btn{
+    width: 100%;
+    padding: 15px 20px;
+    background: #5f7f63;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+@media screen and (max-width: 850px) {
+   
+    .msg-form-container form{
+        width: 90%;
+    }
+    
+}

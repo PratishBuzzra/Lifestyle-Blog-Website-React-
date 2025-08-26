@@ -1,0 +1,110 @@
+.cooperation-component{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem;
+}
+.coop-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    max-width: 1200px;
+   
+    
+}
+.coop-desc{
+    flex: 1;
+    min-width: 250px;
+    font-size: 1.1rem;
+   
+}
+.coop-desc h3{
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+}
+.coop-desc ul{
+    font-size: 1.2rem;
+    padding: 10px 2rem;;
+
+}
+.coop-desc p{
+    font-size: 1.2rem;
+    padding: 0 15px;
+}
+.coop-img{
+   min-width: 250px;
+   flex: 1;
+   display: flex;
+   justify-content: center;
+}
+.coop-img img{
+   max-width: 75%;
+    object-fit: cover;
+    height: auto;
+    border-radius: 6px;
+    
+}
+.blog-stats{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    text-align: center;
+    margin: 4rem 0;
+}
+.blog-stats h3{
+     font-size: 2rem;
+    padding-bottom: 0.5rem;
+}
+.blog-stats p{
+     font-size: 1.2rem;
+    padding: 0 15px;
+}
+@media (max-width: 850px) {
+  .coop-content {
+    flex-direction: column;
+    align-items: start;
+   
+  }
+
+  .coop-desc h3 {
+    font-size: 1.5rem;
+  }
+
+  .coop-img img{
+    max-width: 80%;
+  }
+  .blog-stats h3{
+     font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+.blog-stats p{
+     font-size: 1rem;
+    padding: 0 15px;
+}
+}
+@media (max-width: 450px) {
+
+
+  .coop-desc h3 {
+    font-size: 1.3rem;
+  }
+  .coop-desc ul{
+    font-size: 1rem;
+  }
+  .coop-desc p{
+    font-size: 1rem;
+  }
+
+   .blog-stats h3{
+     font-size: 1.3rem;
+    padding-bottom: 0.5rem;
+}
+.blog-stats p{
+     font-size: 0.8rem; 
+     text-align: left;
+}
+}
