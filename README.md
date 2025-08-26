@@ -13,11 +13,36 @@ The goal of this project was to practice translating a visually rich UI into a f
 
 ---
 
+##  Live Demo
+Check out the live version of the project here:  
+[Live Preview](https://lifestyle-blog-website-react.vercel.app/)
+
+---
+
 ##  Tech Stack
 - **React**  
 - **CSS**  
 - **React Router**   
 - **Responsive design techniques**  
+
+---
+
+## Getting Started
+
+To run this project locally, follow these steps:
+
+```bash
+# Clone the repository
+git clone https://github.com/PratishBuzzra/Lifestyle-Blog-Website-React-.git
+
+# Navigate to the project folder
+cd Lifestyle-Blog-Website-React-
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
 
 ---
 
